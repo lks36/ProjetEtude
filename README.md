@@ -49,9 +49,15 @@ venv\bin\activate
 source venv/bin/activate
 venv\Script\activate
 
+#on lance le back-end
 cd TME2
+uvicorn main:app --reload
 
-#il faut bien configurer, à revoir, à continuer
+#puis dans un autre terminal, on lance le front-end
+cd TME2/front-end
+npx serve -l 5173
+
+#puis on peut lacer le site http://localhost:5173 ou (http://127.0.0.1:5173)
 ```
 ## Données
 
