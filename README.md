@@ -36,8 +36,8 @@ Le projet est organisé par TME et sépare clairement les composants front-end e
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <repository-url>
-cd Projet
+git clone https://github.com/lks36/ProjetEtude.git
+cd ProjetEtude
 
 python -m venv venv
 
